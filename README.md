@@ -4,4 +4,4 @@ Used Python, Jupyter Notebook, and other Python libraries.
 
 These projects are mainly focussed on the Machine Learning, deep learning and data science fields.
 All are welcome to raise and issue and requests pull..
-I am happy and ready to work in groups in these fields!!!
+I am ready to work in groups in these fields!!!
