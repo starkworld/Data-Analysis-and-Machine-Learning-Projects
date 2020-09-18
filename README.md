@@ -33,6 +33,7 @@ Used Python, Jupyter Notebook, and other Python libraries.
 ### Prediction:
 #### Our model is a bit different this time. It doesn't know how to predict new values. But we don't need that. In order to predict whether or not a new/unseen transaction is normal or fraudulent, we'll calculate the reconstruction error from the transaction data itself. If the error is larger than a predefined threshold, we'll mark it as a fraud (since our model should have a low error on normal transactions).
 ![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Credit%20Card%20fraud%20detection%20using%20deep%20learning/Screen%20Shot%202020-09-18%20at%203.07.26%20PM.png)
+#### Keras gave us very clean and easy to use API to build a non-trivial Deep Autoencoder. You can search for TensorFlow implementations and see for yourself how much boilerplate you need in order to train one.
 
 ### Conclusion:
 #### We've created a Deep Autoencoder in Keras that can reconstruct what non fraudulent transactions looks like. Think about it, we gave a lot of one-class examples (normal transactions) to a model and it learned (somewhat) how to discriminate whether or not new examples belong to that same class. Our dataset was kind of magical, though. We really don't know what the original features look like.
@@ -63,7 +64,7 @@ Used Python, Jupyter Notebook, and other Python libraries.
 #### Later used this model test on video clip on web browser.
 
 
-## Human Activity Recognition with smartphone
+## 5. Human Activity Recognition with smartphone
 #### This problem involves in recognizing activities using a smartphone device. This dataset is obtained from UCI machine learning repository.
 #### This dataset contains infomation about an experiment carried with group of 30 volunteers wuthuin age of 19-48 years.
 #### Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
@@ -83,7 +84,7 @@ Used Python, Jupyter Notebook, and other Python libraries.
 ![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/HAR%20Using%20smartphone/Screen%20Shot%202020-09-18%20at%204.46.37%20PM.png)
 
 
-Keras gave us very clean and easy to use API to build a non-trivial Deep Autoencoder. You can search for TensorFlow implementations and see for yourself how much boilerplate you need in order to train one.
+
 
 These projects are mainly focussed on the Machine Learning, deep learning and data science fields.
 ope for pull request. Contributions can be appreciated!!!
