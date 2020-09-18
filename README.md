@@ -43,6 +43,46 @@ Used Python, Jupyter Notebook, and other Python libraries.
 #### Stacked Autoencoders in TensorFlow
 
 
+
+## 4. Facial Expression Recognition
+
+#### This project involves in recognzing the facial expressions using keras and tensorflow. I used keras 2.3.0 and Tensorflow 2.0.1.
+#### I used sequential model to build neural network. Optimizer is adam optimizer.
+#### Loaded the image dataset consisting of different emotions like happy, surprise, neutral, angry, sad, disgust and fear.  Each emotions dataset contained more than 3000 images excpet disgust which has only 436 images to train.
+
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Facial%20Expression%20Recognition%20with%20Keras/Screen%20Shot%202020-09-18%20at%204.25.58%20PM.png)
+
+#### Later generated training and validation batches with batch size of 64. And converted image pixels to vector. to feed into model
+#### Created CNN model with 4 convolution layers with relu activations and with dropout value of 0.25, one flatten layer And 2 fully connected layers.
+#### Feed the model with input shape of (48,48,1)
+#### The hyperparameters are learning rate==0.0005, loss='Categorical_crossentropy'
+#### The result of the model achieved as training loss = 0.8904 - aaacuuracy = 0.6672- val_loss = 0.9813 - val_accuracy = 0.6353
+
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Facial%20Expression%20Recognition%20with%20Keras/Screen%20Shot%202020-09-18%20at%204.25.39%20PM.png)
+
+#### Later used this model test on video clip on web browser.
+
+
+## Human Activity Recognition with smartphone
+#### This problem involves in recognizing activities using a smartphone device. This dataset is obtained from UCI machine learning repository.
+#### This dataset contains infomation about an experiment carried with group of 30 volunteers wuthuin age of 19-48 years.
+#### Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
+#### Based on the given dataset our model has to predict what kind of activity is done by those people based on the values.
+#### This is general classifier probelm which we need to classify the each activity based on given set of values so here we are using classification algorithms like randome forest classsifier, logistic regression, decisio tree classifier,  KNN Classifier,  and Gaussian Naive Bayes.
+#### Found the highly correlatee and least correalted values and took the absolute correlation which is greater than 0.8 to feed into model
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/HAR%20Using%20smartphone/Screen%20Shot%202020-09-18%20at%204.45.52%20PM.png)
+
+#### Abslotute correlation
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/HAR%20Using%20smartphone/Screen%20Shot%202020-09-18%20at%204.46.16%20PM.png)
+
+
+#### Split the train and test set to feed model and fed the processed data to above mentioned classifier model to obtain results.
+
+#### Here our logistic regression model made the best prediction than other models
+#### Confusion Matrics 
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/HAR%20Using%20smartphone/Screen%20Shot%202020-09-18%20at%204.46.37%20PM.png)
+
+
 Keras gave us very clean and easy to use API to build a non-trivial Deep Autoencoder. You can search for TensorFlow implementations and see for yourself how much boilerplate you need in order to train one.
 
 These projects are mainly focussed on the Machine Learning, deep learning and data science fields.
