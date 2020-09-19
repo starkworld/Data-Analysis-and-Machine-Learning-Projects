@@ -83,6 +83,33 @@ Used Python, Jupyter Notebook, and other Python libraries.
 #### Confusion Matrics 
 ![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/HAR%20Using%20smartphone/Screen%20Shot%202020-09-18%20at%204.46.37%20PM.png)
 
+## 6. Hypothesis Test on University Towns
+
+#### A quarter is a specific three month period, Q1 is January through March, Q2 is April through June, Q3 is July through September, Q4 is October through December.
+#### A recession is defined as starting with two consecutive quarters of GDP decline, and ending with two consecutive quarters of GDP growth.
+#### A recession bottom is the quarter within a recession which had the lowest GDP.
+#### A university town is a city which has a high percentage of university students compared to the total population of the city.
+
+### Steps
+#### 1) Collected the previous housing prices data from the different website sources like Zillow research data site and University town in United States from wiki.
+#### 2) Calculated Recession start, end time and Recession Bottom to know the actual prices.
+#### 3)Divided the resulted data Into Quarters and applied Hypothesis test on these Quarters to get the result
+
+## 7. Identifying the target customers using clustering
+#### This dataset is taken from UCI machine learning repo this is one of my initial practice problem when I started learning ML. The data set consist of the custumers who spends on buying something based on their salaries. Here my motivation is to identify the target customers which mall owners can target and tend them to buy more from their malls. Here I am using clustering techniques to predict the results. This probelm is simply identifying the target custmer for company to focus on to improve the sales of their product. So here we are using clustering technique to form a clusters of people. 
+
+#### Here we used elbow method to find the optimal number of cluster for our problem. Image is shown below:
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Identifying%20target%20customers%20using%20clustering/Screen%20Shot%202020-09-19%20at%201.37.15%20AM.png)
+
+#### There is another technique to find the optimal number clusters that is using dendrogram. It generally calculate the euclidean distance between the lables.
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Identifying%20target%20customers%20using%20clustering/Screen%20Shot%202020-09-19%20at%201.39.16%20AM.png)
+
+#### Here we are using K-Means clustering algortihm to find the solution for our model. We feed our data into this model it will predict the result for us. Here is the result shown
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Identifying%20target%20customers%20using%20clustering/Screen%20Shot%202020-09-19%20at%201.40.56%20AM.png)
+
+#### And we are testing our model using hierarchical clustering also to seee which model predicted with high accuracy. Here is image of Hierachical clusters model predictions
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Identifying%20target%20customers%20using%20clustering/Screen%20Shot%202020-09-19%20at%201.42.42%20AM.png)
+
 
 
 
