@@ -115,7 +115,7 @@ Used Python, Jupyter Notebook, and other Python libraries.
 #### Predict the energy output of powerplant. Here Our model did very good job with accuracy of 96%
 ![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Prediciton%20of%20EE%20output/Screen%20Shot%202020-09-19%20at%201.59.30%20AM.png)
 
-## Predicting Bike sharing patterns:
+## 9. Predicting Bike sharing patterns:
 #### This project is an real world problem in which Real work data. Bike sharing systems are new generation of traditional bike rentals where whole process from membership, rental and return 
 back has become automatic. Through these systems, user is able to easily rent a bike from a particular position and return back at another position. Currently, there are about over 500 bike-sharing programs around the world which is composed of over 500 thousands bicycles. Today, there exists great interest in these systems due to their important role in traffic, environmental and health issues.
 
@@ -129,7 +129,32 @@ back has become automatic. Through these systems, user is able to easily rent a 
 #### Finally our model predicted with accuracy shown in figure.
 ![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Predicting%20Bike%20sharing%20Patterns/Screen%20Shot%202020-09-21%20at%202.03.12%20AM.png)
 
+## 10. Sentiment Analysis Using with Deep Learning Using BERT
+#### Project Outline
 
+#### Task 1: Introduction
+##### Bert is a large scaled transformer based learning model that can be fine-tuned for variety of tasks. We will be using SMILE Twitter dataset You can find it here: Wang, Bo; Tsakalidis, Adam; Liakata, Maria; Zubiaga, Arkaitz; Procter, Rob; Jensen, Eric (2016): SMILE Twitter Emotion dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.3187909.v2
+
+#### Task 2: Exploratory Data Analysis and Preprocessing
+##### We are her using pytorch for this problem. In this step I imported dataset. Counted the each category or columns of dataset. It contains 5 major emotions i.e happy, non-relavent, angrat, surprise, sad, disgust. Now we will predict which tweet is belongs to which category.
+
+#### Task 3: Training/Validation Split
+##### Divided dataset into validation and train sets, seperated 15% of dataset for testing purpose.
+ 
+#### Task 4: Loading Tokenizer and Encoding our Data
+##### Imported Berttokenizer from transormers and deployed bert-base-uncase. Encoded the both training and validation sets to feed the model
+
+#### Task 5: Setting up BERT Pretrained Model
+
+#### Task 6: Creating Data Loaders
+
+#### Task 7: Setting Up Optimizer and Scheduler
+
+#### Task 8: Defining our Performance Metrics
+
+#### Task 9: Creating our Training Loop
+
+#### Task 10: Loading and Evaluating model
 
 
 These projects are mainly focussed on the Machine Learning, deep learning and data science fields.
