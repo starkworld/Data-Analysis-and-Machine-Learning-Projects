@@ -160,6 +160,24 @@ back has become automatic. Through these systems, user is able to easily rent a 
 
 #### Task 10: Loading and Evaluating model
 
+## 11. Walmart Sales Forecasting
+##### This is one of the kaggle problem where I worked on my first time series problem. It is a multivariate time series problem and in which we have to predict the future sales of the walmart based on the given actual walmart data. It is multivariate because many factors are effecting on the dependent variable change.
+##### Impoted dataset and done exploratory analysis on the dataset plot the given data sales in each store.
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Wallmart%20Sales%20forecasting%20Project/Screen%20Shot%202020-09-23%20at%202.24.02%20AM.png)
+##### Later plot data a barchart to see the sales in each departement
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Wallmart%20Sales%20forecasting%20Project/Screen%20Shot%202020-09-23%20at%202.25.04%20AM.png)
+##### To see the correaltion between the all the features with dependent variable here I plotted correlation matrix. It defines darker color for highly correaled variable and lighter for least correlated variables.
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Wallmart%20Sales%20forecasting%20Project/Screen%20Shot%202020-09-23%20at%202.27.02%20AM.png)
+* Here, markdown 1 to 5 are weakly co-realted to weekly sales so we will drop those columns
+
+* Also fuel price is strongly co-realted to weekly sales we will drop that one too.
+
+* As well as we will drop temparature, CPI, Unemployment as they are nothing to do with prediciting result.
+
+##### Later built model by importing regression models from scikit-learn and tested all models to predict which model performed best job to predct sales.
+##### Here I used KNN, ExtratreeRegressor, RandomForestRegressor, SVM, Neural Net.
+##### trained model through this models and calculated error using absolute mean error.
+##### Feed the data as 10 cross folds to better performance and tested our model to predict the results 
 
 These projects are mainly focussed on the Machine Learning, deep learning and data science fields.
 ope for pull request. Contributions can be appreciated!!!
