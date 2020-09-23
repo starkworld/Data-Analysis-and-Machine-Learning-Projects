@@ -6,6 +6,12 @@ Used Python, Jupyter Notebook, and other Python libraries.
 
 ## 1. Classification of Iris Flower
 #### This is the first project which I have been statrted learning machine learning. I find it really exciting and enjoying. I have tried several models on the dataset. Logistic regression, KNN, Decision Trees, Naive Bayes, Random forest, etc
+##### To the data/species distribution in dataset I used pairplot from seaborn library and plotted the data.
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Classifiaction%20of%20iris%20flowers/Screen%20Shot%202020-09-23%20at%202.35.09%20AM.png)
+##### To know the specific length of sepal and petal of each category I used violin plot to show it.
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Classifiaction%20of%20iris%20flowers/Screen%20Shot%202020-09-23%20at%202.36.52%20AM.png)
+###### Later to show accuracy of model I used boxplot to display it.
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Classifiaction%20of%20iris%20flowers/Screen%20Shot%202020-09-23%20at%202.38.32%20AM.png)
 
 ## 2. Classification of Breast Cancer
 #### This is a practice project which I have been taken dataset from UCI Repo and trained model using classification algorithms to predict the result like tumour is benign or malignant.
