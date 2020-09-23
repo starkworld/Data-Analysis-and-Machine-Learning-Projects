@@ -15,6 +15,12 @@ Used Python, Jupyter Notebook, and other Python libraries.
 
 ## 2. Classification of Breast Cancer
 #### This is a practice project which I have been taken dataset from UCI Repo and trained model using classification algorithms to predict the result like tumour is benign or malignant.
+##### Correlation matric showing the relation between dependent variable with features
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Classification%20of%20breast%20cancer/Screen%20Shot%202020-09-23%20at%202.46.14%20AM.png)
+##### Showing model accuracy on using different alogirthms on the dataset
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Classification%20of%20breast%20cancer/Screen%20Shot%202020-09-23%20at%202.46.27%20AM.png)
+##### displaying accuracy of model predictions
+![Alt text](https://github.com/starkworld/Data-Analysis-and-Machine-Learning-Projects/blob/master/Classification%20of%20breast%20cancer/Screen%20Shot%202020-09-23%20at%202.46.39%20AM.png)
 
 ## 3. Credit Card Fraud Detection
 #### Project Involves in detecting frauds in credit card. Major intention behind solving this problem is Annual global fraud losses reached $21.8 billion in 2015, according to Nilson Report.Probably you feel very lucky if you are a fraud. About every 12 cents per $100 were stolen in the US during the same year.In this part of the series, we will train an Autoencoder Neural Network (implemented in Keras) in unsupervised (or semi-supervised) fashion for Anomaly Detection in credit card transaction data. The trained model will be evaluated on pre-labeled and anonymized dataset.
