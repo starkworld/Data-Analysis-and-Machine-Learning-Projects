@@ -145,12 +145,16 @@ back has become automatic. Through these systems, user is able to easily rent a 
 ##### Imported Berttokenizer from transormers and deployed bert-base-uncase. Encoded the both training and validation sets to feed the model
 
 #### Task 5: Setting up BERT Pretrained Model
+##### I imported pre trained bert model from transoformers which is bert sequenceclassification and now setting it. 
 
 #### Task 6: Creating Data Loaders
+##### from pytorch I am importing Dataloader, RandomSampler, SequentialSampler. Set up the batch size as 4
 
 #### Task 7: Setting Up Optimizer and Scheduler
+##### In this step I imported AdamW optimizer as optimization method. Set up learning rate as 0.0005, and eps= le-8 as hyper parameters.
 
 #### Task 8: Defining our Performance Metrics
+##### To know the performance of our model we are using some mtrics to measure it. ffirst one is F1 Score. 
 
 #### Task 9: Creating our Training Loop
 
