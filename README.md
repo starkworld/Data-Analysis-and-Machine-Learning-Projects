@@ -193,4 +193,4 @@ back has become automatic. Through these systems, user is able to easily rent a 
 
 These projects are mainly focussed on the Machine Learning, deep learning and data science fields.
 ope for pull request. Contributions can be appreciated!!!
-I am ready to work in groups in these fields!!!
+I am ready to work in groups in these fields!
